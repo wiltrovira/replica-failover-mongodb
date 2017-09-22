@@ -6,7 +6,7 @@ MongoClient.connect('mongodb://usuario:password@servidor:27001,servidor:27002,se
 	var documentNumber = 0;
 	function insertDocument() {
 
-		db.collection('replicaDemo').insert({ 'documentNumber' : documentNumber++ }, function(err, doc) {
+		db.collection('foo').insert({ 'documentNumber' : documentNumber++ }, function(err, doc) {
 			if (err) throw err;
 			console.log(doc);
 		});
