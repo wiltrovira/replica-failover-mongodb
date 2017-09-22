@@ -1,0 +1,34 @@
+{
+  "name": "replica-failover-mongodb",
+  "version": "0.1.0",
+  "description": "mongodb nodejs driver replica failover",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiltrovira/replica-failover-mongodb.git"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs",
+    "driver",
+    "failover",
+    "replica"
+  ],
+  "author": "Wilt Rovira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiltrovira/replica-failover-mongodb/issues"
+  },
+  "homepage": "https://github.com/wiltrovira/replica-failover-mongodb#readme",
+  "dependencies": {
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-rules-nodejs": "^1.0.0"
+  }
+}
